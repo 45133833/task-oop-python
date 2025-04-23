@@ -18,7 +18,7 @@ class accont:
             print("there is no money")
     
     def Transfer(self, amount, ontherAccount):
-        if Withdraw(amount):
+        if self.Withdraw(amount):
             ontherAccount.Deposit(amount)
         else:
             print("there is no money")
